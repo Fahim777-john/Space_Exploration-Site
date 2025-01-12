@@ -1,0 +1,78 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Footer Styling */
+.header, .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #1a1a1a;
+    padding: 15px;
+    height: 100%;
+    position: sticky;
+    top: 0;
+}
+
+nav .nav-item {
+    margin: 10px 0;
+}
+
+nav .nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Adds space between columns */
+}
+
+.col-nav {
+    flex: 1; /* Adjusts navigation width */
+}
+
+.col-main {
+    flex: 3; /* Adjusts main content width */
+}
+
+.mission-container {
+    display: flex;
+    flex-direction: row; /* Aligns missions side by side */
+    gap: 20px; /* Space between the missions */
+}
+
+.mission {
+    flex: 1; /* Makes both missions equal in width */
+    border: 1px solid #ddd; /* Optional: Adds a border */
+    padding: 10px; /* Optional: Adds padding for spacing */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow */
+}
+
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
